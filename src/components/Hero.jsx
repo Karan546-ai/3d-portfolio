@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import profileImg from "../assets/profile.jpg";
 
 const Hero = () => {
   const canvasRef = useRef(null);
@@ -106,7 +107,7 @@ const Hero = () => {
           {/* Photo */}
           <div className="hero-photo-ring">
             <img
-              src="/profile.jpg"
+              src={profileImg}
               alt="Karan Tiwari"
               className="hero-photo"
             />
